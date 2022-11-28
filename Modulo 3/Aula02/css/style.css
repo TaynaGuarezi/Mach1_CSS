@@ -1,0 +1,84 @@
+/* um seletor de tag é quando você diz que no css que você vai buscar umna tag especifica. */
+
+/* .teste -> class
+#teste -> id */
+
+div{
+
+}
+
+span{
+
+}
+
+h1{
+
+}
+
+hr{
+
+}
+
+/* .p_Fora{
+    color: chocolate;
+} */
+ 
+/* todos os p que existem dentro da div em qualuqer hierarquia */
+
+/* div p{
+    color: blue;
+} */
+
+/* somente os filhos (p) direto da div */
+
+/* div > p{
+    color:palevioletred;
+}
+
+div > article > div p {
+    color:darkkhaki;
+} */
+
+
+/* div + p -> SE o proximo irmão da div for um paragrafo se aplica
+
+div + p {
+    color: red;
+    }
+
+div ~ p -> Todos os próximos irmãos da div se aplica  */
+
+
+/* div ~ p{
+ color: red;
+}  */
+
+
+/* Cascateamento pesos hierarquia prioridade
+tag = peso 1
+class = peso 10 
+id = peso 100
+inline = peso 1000
+*/
+
+/* tag peso 1 */
+p{
+    color: red !important;
+}
+
+/* class = peso 10 */
+.p_azul{
+    color: blue;
+}
+
+/* id = peso 100 */
+#p_verde {
+    color: green ;
+}
+
+
+/* !important sobrescreve inline ou qualquer peso */
+
+
+
+

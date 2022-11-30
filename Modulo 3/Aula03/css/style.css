@@ -1,0 +1,29 @@
+
+/* seletor universal 
+
+*{
+    color: blue;
+} */
+
+/* input, textarea, a{
+    padding: 12px;
+    border: solid 2px pink ;
+    border-radius: 8px;
+    width: 350px;
+}
+
+a{
+    background-color:pink;
+    color: white;
+} */
+
+/* TAG ID CLASS */
+
+ input[name$="n_"]{
+    padding: 12px;
+    border: solid 2px pink ;
+    border-radius: 8px;
+    width: 350px;
+ }
+
+  

@@ -1,29 +1,33 @@
-
-/* seletor universal 
-
-*{
-    color: blue;
-} */
-
-/* input, textarea, a{
-    padding: 12px;
-    border: solid 2px pink ;
-    border-radius: 8px;
-    width: 350px;
+ /* div article p{
+    color: rgb(109, 73, 79);
+    background-color: rgb(198, 167, 199);
 }
+ ou 
 
-a{
-    background-color:pink;
-    color: white;
-} */
 
-/* TAG ID CLASS */
+.n_div #n_id p{
+    color: red;
+}  */
 
- input[name$="n_"]{
+
+ /* input, textarea, a {
     padding: 12px;
-    border: solid 2px pink ;
-    border-radius: 8px;
+    border: solid 2px rebeccapurple;
+    border-radius: 12px;
     width: 350px;
+    height:50px ;
  }
 
-  
+ a:hover{
+    background-color: palevioletred;
+    color: white;
+    border:solid 2px plum;
+ } */
+
+ input[name^="n_"]{
+    padding: 12px;
+    border: solid 2px rebeccapurple;
+    border-radius: 12px;
+    width: 350px;
+    height:50px ;
+ }

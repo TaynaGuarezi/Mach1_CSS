@@ -1,26 +1,44 @@
-/* button:hover{
-    background-color: red;
-    color: white;
-    
+   /* button:hover{
+      background-color: darkseagreen;
+      color: brown;
+   }
+
+   h1:hover{
+      color:purple
+   }
+
+div :last-child,div p:hover {
+   color: red;
 }
 
-p:hover{
-    color: red;
+ul ::marker{
+   color: brown;
 }
- */
 
- div :nth-child(odd){
-    color: red;
- }
+li{
+   color: purple;
+}
 
+input::placeholder{
+   color: cornflowerblue;
+}
 
- ol ::marker{
-    color: blue;
- }
+input{
+   color: cadetblue;
+}
 
- li{
-    color: red
-    ;
- }
+p::before{
+   content: "PseudoE -";
+} */
 
- 
+div{
+   background-color:cadetblue;
+   height: 200px;
+   width: 500px;
+   padding: 32px ;
+   border: 3px solid brown;
+   margin: 64px;
+
+   border-radius: 32px;
+}
+

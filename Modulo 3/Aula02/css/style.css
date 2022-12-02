@@ -63,7 +63,7 @@ inline = peso 1000
 
 /* tag peso 1 */
 p{
-    color: red !important;
+    color: red ;
 }
 
 /* class = peso 10 */

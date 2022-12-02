@@ -1,0 +1,26 @@
+/* button:hover{
+    background-color: red;
+    color: white;
+    
+}
+
+p:hover{
+    color: red;
+}
+ */
+
+ div :nth-child(odd){
+    color: red;
+ }
+
+
+ ol ::marker{
+    color: blue;
+ }
+
+ li{
+    color: red
+    ;
+ }
+
+ 

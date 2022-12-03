@@ -1,0 +1,15 @@
+.corpo{
+    height: 1500px;
+    background-color: beige;
+}
+
+.posicao{
+    height: 64px;
+    width: 100%;
+    background-color: aquamarine;
+    position: absolute;
+    top: 16px;  
+    
+    
+    
+}
